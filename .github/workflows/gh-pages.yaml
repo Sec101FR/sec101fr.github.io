@@ -1,5 +1,8 @@
 name: Deploy Asto website
 
+permissions:
+  contents: write
+
 on:
   push:
     branches:
@@ -23,5 +26,4 @@ jobs:
         with:
           branch: gh-pages
           folder: dist
-          token: ${{ secrets.GITHUB_TOKEN }}
 
