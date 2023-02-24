@@ -26,4 +26,7 @@ jobs:
         with:
           branch: gh-pages
           folder: dist
+          clean: ture
+          clean-exclude: |
+            CNAME
 
