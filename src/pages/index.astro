@@ -210,10 +210,10 @@ const meta = {
 
   <Stats
     items={[
-      { name: 'Downloads', value: '132K' },
-      { name: 'Stars', value: '24.8K' },
-      { name: 'Forks', value: '10.3K' },
-      { name: 'Users', value: '48.4K' },
+      { name: 'Auditeurs', value: '8' },
+      { name: 'Clients', value: '+50' },
+      { name: 'Vulnérabilités', value: '+400' },
+      { name: 'Vuln. critiques', value: '+50' },
     ]}
   />
 
@@ -221,18 +221,17 @@ const meta = {
 
   <CallToAction
     callToAction={{
-      text: 'Get template',
+      text: 'Demander un audit',
       href: 'https://github.com/onwidget/astrowind',
-      icon: 'tabler:download',
+      icon: 'tabler:file-export',
     }}
   >
     <Fragment slot="title">
-      Astro + <br class="block sm:hidden" /><span class="sm:whitespace-nowrap">Tailwind CSS</span>
+      Sécurisez <br class="block sm:hidden" /><span class="sm:whitespace-nowrap">vos applications</span>
     </Fragment>
 
     <Fragment slot="subtitle">
-      Be very surprised by these huge fake numbers you are seeing on this page. <br class="hidden md:inline" />Don't
-      waste more time! :P
+      En quelques minutes, détaillez votre application et accèdez à nos prestations de cybersécurité.
     </Fragment>
   </CallToAction>
 </Layout>

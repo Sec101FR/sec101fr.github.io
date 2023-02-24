@@ -3,13 +3,12 @@ import defaultImage from './assets/images/default.png';
 const CONFIG = {
   name: 'Sec101',
 
-  origin: 'https://astrowind.vercel.app',
+  origin: 'https://sec101.fr',
   basePathname: '/',
   trailingSlash: false,
 
-  title: 'Sec101 — Prestation d\'audit de cybersécurité, applications web & mobiles, infrastructure cloud.', 
-  description:
-    '🚀 Suitable for Startups, Small Business, Sass Websites, Professional Portfolios, Marketing Websites, Landing Pages & Blogs.',
+  title: 'Sec101 - Prestation d\'audit de cybersécurité', 
+  description: 'Prestations de tests d\'intrusions pour sécuriser vos applications web, mobiles & infrastructure cloud.',
   defaultImage: defaultImage,
 
   defaultTheme: 'system', // Values: "system" | "light" | "dark" | "light:only" | "dark:only"
