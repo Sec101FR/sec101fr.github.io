@@ -42,6 +42,17 @@ const meta = {
 
   <Note />
 
+  <!-- Stats Widget ****************** -->
+
+  <Stats
+    items={[
+      { name: 'Auditeurs', value: '8' },
+      { name: 'Clients', value: '+50' },
+      { name: 'Vulnérabilités', value: '+400' },
+      { name: 'Vuln. critiques', value: '+50' },
+    ]}
+  />
+
   <!-- Features Widget *************** -->
 
   <Features
@@ -165,55 +176,44 @@ const meta = {
   <!-- FAQs Widget ******************* -->
 
   <FAQs
-    title="Frequently Asked Questions"
-    subtitle="Duis turpis dui, fringilla mattis sem nec, fringilla euismod neque. Morbi tincidunt lacus nec tortor scelerisque pulvinar."
+    title="Questions Fréquentes"
+    subtitle="Vous trouverez dans cette section les réponses aux questions fréquemments posées."
     highlight="FAQs"
     items={[
       [
         {
-          question: 'What do I need to start?',
+          question: "Qu'est-ce qu'un test d'instrusion ?",
           answer:
-            'Space, the final frontier. These are the voyages of the Starship Enterprise. Its five-year mission: to explore strange new worlds. Many say exploration is part of our destiny, but it’s actually our duty to future generations.',
+            "Un test d'intrusion (pentest) est une évaluation de la sécurité qui simule une attaque sur un réseau ou une application afin d'identifier les failles de sécurité.",
         },
         {
-          question: 'How to install the Astro + Tailwind CSS template?',
+          question: "Pourquoi avez-vous besoin d'un test d'intrusion ?",
           answer:
-            "Well, the way they make shows is, they make one show. That show's called a pilot. Then they show that show to the people who make shows, and on the strength of that one show they decide if they're going to make more shows. Some pilots get picked and become television programs. Some don't, become nothing. She starred in one of the ones that became nothing.",
+            "Travailler avec une entreprise de tests d'intrusion qualifiée est le meilleur moyen d'améliorer la sécurité de vos systèmes et de maintenir une bonne réputation auprès des clients.",
         },
         {
-          question: "What's something that you don't understand?",
+          question: "À quelle fréquence dois-je effectuer un test d'intrusion ?",
           answer:
-            "A flower in my garden, a mystery in my panties. Heart attack never stopped old Big Bear. I didn't even know we were calling him Big Bear.",
-        },
+            "Il est nécessaire de réaliser des tests de pénétration régulièrement (au moins une fois par an) pour garantir la sécurité face à des menaces en constante évolution.",
+        }
       ],
       [
         {
-          question: "What's an example of when you changed your mind?",
+          question: "Fournissez-vous un rapport de sécurité ?",
           answer:
-            "Michael Knight a young loner on a crusade to champion the cause of the innocent. The helpless. The powerless in a world of criminals who operate above the law. Here he comes Here comes Speed Racer. He's a demon on wheels.",
+            "Toutes les vulnérabilités identifiées au cours de l'audit seront documentées et des solutions de remédiation adaptées à votre produit seront décrites dans un rapport qui vous sera transmis.",
         },
         {
-          question: 'What is something that you would like to try again?',
+          question: "Combien de temps dure un test d'instrusion ?",
           answer:
-            "A business big enough that it could be listed on the NASDAQ goes belly up. Disappears! It ceases to exist without me. No, you clearly don't know who you're talking to, so let me clue you in.",
+            "La durée d'un test d'intrusion est généralement d'une semaine, mais elle peut être ajustée à la hausse ou à la baisse en fonction de la complexité du produit testé.",
         },
         {
-          question: 'If you could only ask one question to each person you meet, what would that question be?',
+          question: "Réalisez-vous de l'analyse de code ?",
           answer:
-            "This is not about revenge. This is about justice. A lot of things can change in twelve years, Admiral. Well, that's certainly good to know. About four years. I got tired of hearing how young I looked.",
-        },
-      ],
-    ]}
-  />
-
-  <!-- Stats Widget ****************** -->
-
-  <Stats
-    items={[
-      { name: 'Auditeurs', value: '8' },
-      { name: 'Clients', value: '+50' },
-      { name: 'Vulnérabilités', value: '+400' },
-      { name: 'Vuln. critiques', value: '+50' },
+            "Absolument, nous effectuons des analyses de code qui nous permettent d'approfondir la recherche de vulnérabilités et ainsi, de découvrir davantage de failles et de failles plus critiques.",
+        }
+      ]
     ]}
   />
 
@@ -231,7 +231,7 @@ const meta = {
     </Fragment>
 
     <Fragment slot="subtitle">
-      En quelques minutes, détaillez votre application et accèdez à nos prestations de cybersécurité.
+      En quelques minutes, détaillez votre application et accèdez à nos services de cybersécurité.
     </Fragment>
   </CallToAction>
 </Layout>
