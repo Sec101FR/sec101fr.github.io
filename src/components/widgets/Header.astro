@@ -7,14 +7,10 @@ import ToggleMenu from '~/components/common/ToggleMenu.astro';
 import { getHomePermalink, getBlogPermalink, getPermalink, getAsset } from '~/utils/permalinks';
 
 const links = [
-  {
-    text: 'Blog',
-    href: getBlogPermalink(),
-  },
-  {
-    text: 'Contact',
-    href: '#',
-  },
+  { text: 'Blog', href: getBlogPermalink() },
+  { text: 'Notre équipe', href: '/teams' },
+  { text: 'À propos', href: '/about' },
+  { text: 'Nous contacter', href: '/contact' },
 ];
 ---
 

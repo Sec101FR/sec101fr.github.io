@@ -1,6 +1,6 @@
 ---
 import { Icon } from 'astro-icon';
-import { getHomePermalink, getPermalink, getAsset } from '~/utils/permalinks';
+import { getHomePermalink, getBlogPermalink, getPermalink, getAsset } from '~/utils/permalinks';
 
 const links = [
   {
@@ -21,7 +21,10 @@ const links = [
   {
     title: 'Sec101',
     items: [
-      { title: 'A propos', href: '/about' },
+      { title: 'Blog', href: getBlogPermalink() },
+      { title: 'Notre équipe', href: '/teams' },
+      { title: 'À propos', href: '/about' },
+      { title: 'Nous contacter', href: '/contact' },
     ],
   },
 ];
