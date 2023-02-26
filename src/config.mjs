@@ -8,7 +8,7 @@ const CONFIG = {
   trailingSlash: false,
 
   title: 'Sec101 - Prestation d\'audit de cybersécurité', 
-  description: 'Prestations de tests d\'intrusions pour sécuriser vos applications web, mobiles & infrastructure cloud.',
+  description: 'Prestations de tests d\'intrusions pour sécuriser vos applications web, mobiles & infrastructures cloud.',
   defaultImage: defaultImage,
 
   defaultTheme: 'system', // Values: "system" | "light" | "dark" | "light:only" | "dark:only"
