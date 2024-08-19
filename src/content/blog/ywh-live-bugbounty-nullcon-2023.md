@@ -3,7 +3,7 @@ publishDate: 2023-03-11T00:00:00Z
 title: YesWeHack's Live Bug Bounty - Nullcon Berlin 2023
 description: YesWeHack, the global Bug Bounty and VDP Platform, is hosting a 2-day Live Bug Bounty during the Nullcon 2023 in Berlin
 excerpt: YesWeHack, the global Bug Bounty and VDP Platform, is hosting a 2-day Live Bug Bounty during the Nullcon 2023 in Berlin
-image: assets/images/YWH-LiveEvent-Berlin-2023.png
+image: ~/assets/images/YWH-LiveEvent-Berlin-2023.png
 category: event
 tags:
   - bugbounty
@@ -19,6 +19,6 @@ La cible des tests de sécurité était l'entreprise [Otto](https://www.otto.de/
 
 Durant cet évènement, nous avons réussi à identifier plusieurs vulnérabilités de criticité faible à élevée.
 
-![YWH-BugBounty-Berlin-2023.webp](../../assets/images/YWH-BugBounty-Berlin-2023.webp)
+![YWH-BugBounty-Berlin-2023.webp](/YWH-BugBounty-Berlin-2023.webp)
 
 > En savoir plus sur [NULLCON 2023 - Live Bug Bounty](https://berlin2023.nullcon.net/berlin-2023/live-bug-hunting).

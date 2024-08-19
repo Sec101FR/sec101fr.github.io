@@ -3,7 +3,7 @@ import defaultImage from './assets/images/default.png';
 const CONFIG = {
   name: 'Sec101',
 
-  origin: 'https://sec101.fr',
+  origin: 'https://sec101.xanhacks.xyz',
   basePathname: '/',
   trailingSlash: false,
 
