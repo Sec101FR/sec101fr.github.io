@@ -8,7 +8,7 @@ category: event
 tags:
   - bugbounty
   - event
-canonical: https://sec101.xanhacks.xyz/ywh-live-bugbounty-nullcon-2024
+canonical: https://sec101.xanhacks.xyz/intigriti-live-bugbounty-nullcon-2024
 ---
 
 ## TL;DR
