@@ -3,7 +3,7 @@ publishDate: 2024-03-16T00:00:00Z
 title: Intigriti's Live Bug Bounty - Nullcon Berlin 2024
 description: Intigriti, a Bug Bounty Platform, is hosting a 2-day Live Bug Bounty during the Nullcon 2024 in Berlin
 excerpt: Intigriti, a Bug Bounty Platform, is hosting a 2-day Live Bug Bounty during the Nullcon 2024 in Berlin
-image: https://sec101.xanhacks.xyz/assets/images/Intigriti-LiveEvent-Berlin-2024.jpg
+image: /assets/images/Intigriti-LiveEvent-Berlin-2024.jpg
 category: event
 tags:
   - bugbounty
@@ -19,4 +19,4 @@ La cible des tests de sécurité était l'entreprise [Nestlé](https://www.nestl
 
 Au cours de ces deux jours, nous avons rapporté plusieurs vulnérabilités de criticité moyenne à élevée.
 
-![Intigriti-LiveEvent-Berlin-2024.jpg](/assets/images/Intigriti-LiveEvent-Berlin-2024-square.jpg)
+![Intigriti-LiveEvent-Berlin-2024.jpg](../assets/images/Intigriti-LiveEvent-Berlin-2024-square.jpg)
