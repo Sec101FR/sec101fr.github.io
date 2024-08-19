@@ -19,4 +19,4 @@ La cible des tests de sécurité était l'entreprise [Nestlé](https://www.nestl
 
 Au cours de ces deux jours, nous avons rapporté plusieurs vulnérabilités de criticité moyenne à élevée.
 
-![Intigriti-LiveEvent-Berlin-2024.jpg](~/assets/images/Intigriti-LiveEvent-Berlin-2024-square.jpg)
+![Intigriti-LiveEvent-Berlin-2024.jpg](/Intigriti-LiveEvent-Berlin-2024-square.jpg)
